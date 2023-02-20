@@ -577,7 +577,7 @@
                     Math.ceil(this.distanceRan));
                 
 
-                if ((this.distanceMeter.getActualDistance( Math.ceil(this.distanceRan))) > 800 )
+                if ((this.distanceMeter.getActualDistance( Math.ceil(this.distanceRan))) > 1000 )
                 {
                     // document.querySelector("#t").value = "look to the back of the spin, to go to the next level! =)) ";
                     document.getElementById('t').innerHTML = '<div style="font-family: sans-serif;padding: 80px; text-align: center;background: #1abc9c;color: white;"><h1>Congrats!<h1><h2>look to the back of the spin, to go to the next level! =)) </h2></div>';
